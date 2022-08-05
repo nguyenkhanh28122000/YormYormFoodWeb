@@ -13,19 +13,21 @@ import {
     UpdateProfile,
 } from '~/pages';
 
+import configs from '~/configs';
+
 const publicRoutes = [
-    { path: '/', component: Home },
-    { path: 'about', component: About },
-    { path: 'cart', component: Cart },
-    { path: 'checkout', component: Checkout },
-    { path: 'contact', component: Contact },
-    { path: 'login', component: Login },
-    { path: 'menu', component: Menu },
-    { path: 'orders', component: Orders },
-    { path: 'profile', component: Profile },
-    { path: 'register', component: Register },
-    { path: 'updateAddress', component: UpdateAddress },
-    { path: 'updateProfile', component: UpdateProfile },
+    { path: configs.routes.home, component: Home },
+    { path: configs.routes.about, component: About },
+    { path: configs.routes.cart, component: Cart },
+    { path: configs.routes.checkout, component: Checkout },
+    { path: configs.routes.contact, component: Contact },
+    { path: configs.routes.login, component: Login },
+    { path: configs.routes.menu, component: Menu },
+    { path: configs.routes.orders, component: Orders },
+    { path: configs.routes.profile, component: Profile },
+    { path: configs.routes.register, component: Register },
+    { path: configs.routes.updateAddress, component: UpdateAddress },
+    { path: configs.routes.updateProfile, component: UpdateProfile },
 ];
 
 const privateRoutes = [];

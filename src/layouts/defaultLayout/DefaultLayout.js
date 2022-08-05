@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind';
 import styles from './defaultLayout.module.scss';
 
-import { Header, Footer } from '~/layouts/componentLayouts';
+import { Header, Footer, Loader } from '~/layouts/componentLayouts';
 
 const cx = classNames.bind(styles);
 
@@ -11,6 +11,7 @@ function DefaultLayout({ children }) {
             <Header />
             {children}
             <Footer />
+            <Loader />
         </div>
     );
 }

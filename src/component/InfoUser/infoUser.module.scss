@@ -1,0 +1,50 @@
+.wrapper {
+    background-color: var(--white-color);
+    border: var(--border-style);
+    text-align: center;
+    padding: 1.5rem;
+    position: absolute;
+    top: 120%;
+    right: 2rem;
+    width: 30rem;
+    display: none;
+    animation: FadeIn 0.2s linear;
+}
+
+.wrapper.active {
+    display: inline-block;
+}
+.name-user {
+    display: inline-block;
+    color: var(--black-color);
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.accout {
+    display: inline-block;
+    color: var(--light-color);
+    font-size: 1.7rem;
+    margin-top: 2rem;
+
+    a {
+        color: var(--black-color);
+        text-decoration: underline;
+        font-weight: 400;
+
+        &:hover {
+            color: var(--yellow-color);
+        }
+    }
+}
+
+@keyframes FadeIn {
+    0% {
+        transform: translateY(1rem);
+    }
+}
