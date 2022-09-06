@@ -8,9 +8,9 @@ import { Button } from '~/component';
 
 const cx = classNames.bind(styles);
 
-function InfoUser({ nameUser, active = false }) {
+function InfoUser({ nameUser, active = false, onClick }) {
     return (
-        <div className={cx('wrapper', { active })}>
+        <div className={cx('wrapper', { active })} onClick={onClick}>
             <span className={cx('name-user')}>{nameUser}</span>
             <div className={cx('content')}>
                 <Button to={configs.routes.profile}>profile</Button>
@@ -28,6 +28,7 @@ function InfoUser({ nameUser, active = false }) {
 InfoUser.propTypes = {
     nameUser: PropTypes.string.isRequired,
     active: PropTypes.bool.isRequired,
+    onClick: PropTypes.func,
 };
 
 export default InfoUser;

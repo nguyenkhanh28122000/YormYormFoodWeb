@@ -6,9 +6,11 @@
     font-size: 2rem;
     text-transform: capitalize;
     cursor: pointer;
+    transition: var(--transition-delay);
 
     &:hover {
         letter-spacing: 0.2rem;
+        transition: var(--transition-delay);
     }
 }
 

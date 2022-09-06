@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border: var(--border-style);
+    background-color: var(--white-color);
+
+    .bodyTotal {
+        background-color: var(--black-color);
+        padding: 2rem;
+    }
+
+    .title {
+        color: var(--white-color);
+        font-size: 2.5rem;
+        text-transform: capitalize;
+    }
+}
+
+.info {
+    .title {
+        padding-top: 1rem;
+        color: var(--black-color);
+    }
+
+    .infoItem {
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .orderBtn {
+        background-color: var(--black-color);
+        color: var(--white-color);
+        width: 100%;
+    }
+
+    .inputSelect {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+}

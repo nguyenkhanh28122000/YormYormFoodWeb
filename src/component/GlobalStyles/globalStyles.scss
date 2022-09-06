@@ -8,6 +8,7 @@
     --black-color: #222222;
     --light-color: #777777;
     --border-style: 0.2rem solid var(--black-color);
+    --transition-delay: all 0.2s ease-in;
 }
 
 * {
@@ -18,7 +19,6 @@
     outline: none;
     border: none;
     text-decoration: none;
-    transition: all 0.2s ease-in;
 }
 
 *::selection {
@@ -50,6 +50,10 @@ section {
     margin: 0 auto;
     max-width: 1200px;
     padding: 2.5rem;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--yellow-color);
 }
 
 @media (max-width: 991px) {

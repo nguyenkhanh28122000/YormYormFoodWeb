@@ -1,0 +1,108 @@
+.box {
+    background-color: var(--white-color);
+    border: var(--border-style);
+    padding: 2rem;
+    overflow: hidden;
+    position: relative;
+
+    &:hover .eyeBtn {
+        left: 1.5rem;
+        transition: var(--transition-delay);
+    }
+    &:hover .shopBtn,
+    .closeBtn {
+        right: 1.5rem;
+        transition: var(--transition-delay);
+    }
+}
+
+.image {
+    img {
+        width: 100%;
+        height: 30rem;
+        object-fit: contain;
+        margin: 0;
+    }
+
+    .btn {
+        position: absolute;
+        top: 1.5rem;
+        transition: var(--transition-delay);
+        margin-left: 0;
+    }
+
+    .eyeBtn {
+        left: -10rem;
+    }
+
+    .shopBtn {
+        right: -10rem;
+    }
+
+    .closeBtn {
+        background-color: var(--red-color);
+        color: var(--white-color);
+    }
+}
+
+.content {
+    a {
+        font-size: 1.7rem;
+        color: var(--light-color);
+        line-height: 3rem;
+    }
+    .namefood {
+        font-size: 2.1rem;
+        font-weight: 400;
+    }
+}
+.flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    .price {
+        font-size: 2.5rem;
+        color: var(--black-color);
+        letter-spacing: 0.2rem;
+
+        span {
+            color: var(--light-color);
+            font-size: 2rem;
+        }
+    }
+
+    input {
+        font-size: 2rem;
+        color: var(--black-color);
+        border: var(--border-style);
+        padding: 1rem;
+        width: 8rem;
+    }
+}
+
+// BoxCart
+.input {
+    display: flex;
+    align-items: center;
+
+    .penBtn {
+        color: var(--black-color);
+        background-color: var(--yellow-color);
+        width: 5rem;
+        margin-left: 1rem;
+    }
+}
+.total {
+    font-size: 1.7rem;
+    color: var(--light-color);
+
+    span {
+        font-size: 1.9rem;
+        color: var(--black-color);
+        letter-spacing: 0.1rem;
+    }
+}

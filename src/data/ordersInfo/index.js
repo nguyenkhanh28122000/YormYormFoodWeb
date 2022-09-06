@@ -1,0 +1,40 @@
+const ordersInfo = [
+    {
+        id: 0,
+        time: '11-8-2021',
+        name: 'Nguyễn Ngọc Khánh',
+        number: '0338204170',
+        email: 'kh2000987@gmail.com',
+        address: 'Lương phúc - Việt Long - Sóc Sơn - Hà Nội',
+        orders: 'pizza 01 (1) - main dish 02 (3)',
+        total: 70,
+        payMothod: 'cash on delivery',
+        payStatus: 'pending',
+    },
+    {
+        id: 1,
+        time: '11-8-2021',
+        name: 'Nguyễn Ngọc Khánh',
+        number: '0338204170',
+        email: 'kh2000987@gmail.com',
+        address: 'Lương phúc - Việt Long - Sóc Sơn - Hà Nội',
+        orders: 'pizza 01 (1) - main dish 02 (3)',
+        total: 70,
+        payMothod: 'cash on delivery',
+        payStatus: 'pending',
+    },
+    {
+        id: 2,
+        time: '11-8-2021',
+        name: 'Nguyễn Ngọc Khánh',
+        number: '0338204170',
+        email: 'kh2000987@gmail.com',
+        address: 'Lương phúc - Việt Long - Sóc Sơn - Hà Nội',
+        orders: 'pizza 01 (1) - main dish 02 (3)',
+        total: 70,
+        payMothod: 'cash on delivery',
+        payStatus: 'pending',
+    },
+];
+
+export default ordersInfo;

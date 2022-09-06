@@ -1,0 +1,37 @@
+.wrapper {
+    border: var(--border-style);
+    background-color: var(--white-color);
+    padding: 2rem;
+    text-align: center;
+
+    .image {
+        width: 100%;
+
+        img {
+            width: 10rem;
+            object-fit: contain;
+            border-radius: 50%;
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+.content {
+    p {
+        color: var(--light-color);
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .boxStar {
+        margin: 1rem 0;
+        color: var(--yellow-color);
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        color: var(--black-color);
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+}

@@ -15,7 +15,7 @@ function BoxInfo({ to, title, src, className, hover = false, children }) {
     const clases = cx('wrapper', { [className]: className, hover });
     return (
         <Comp className={clases} to={to}>
-            <img src={src} alt="Image Error" />
+            <img src={src} alt="Error" />
             <h3>{title}</h3>
             {children}
         </Comp>

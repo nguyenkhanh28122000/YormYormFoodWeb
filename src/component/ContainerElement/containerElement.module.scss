@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container40 {
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+}
+
+.container33 {
+    grid-template-columns: repeat(auto-fit, 33rem);
+}
+.container30 {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+.container27 {
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+}
+
+@media (max-width: 468px) {
+    .container33 {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,19 @@
+.wrapper {
+    background-color: var(--white-color);
+    padding: 2rem;
+    border: var(--border-style);
+}
+
+.itemWrapper {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1.5rem;
+    line-height: 3rem;
+    .title {
+        color: var(--light-color);
+    }
+
+    .detail {
+        color: var(--black-color);
+    }
+}

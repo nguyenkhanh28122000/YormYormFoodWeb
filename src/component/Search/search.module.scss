@@ -11,10 +11,12 @@
     align-items: center;
     justify-content: center;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: var(--transition-delay);
 }
 
 .search.active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transition: var(--transition-delay);
 }
 
 .search-input {

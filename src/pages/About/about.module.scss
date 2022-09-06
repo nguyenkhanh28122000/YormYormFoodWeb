@@ -1,0 +1,41 @@
+.headerAbout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+
+    .content {
+        flex: 1 1 40rem;
+        padding: 0 3rem;
+        text-align: center;
+
+        h3 {
+            font-size: 3rem;
+        }
+        p {
+            font-size: 1.5rem;
+            color: var(--light-color);
+            line-height: 2rem;
+            text-align: justify;
+            margin: 1.5rem 0;
+        }
+    }
+}
+
+.step {
+    img {
+        height: 12rem;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+    }
+
+    p {
+        font-size: 1.5rem;
+        color: var(--light-color);
+        line-height: 2.5rem;
+    }
+}

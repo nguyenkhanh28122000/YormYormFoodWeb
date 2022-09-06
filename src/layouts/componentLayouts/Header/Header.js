@@ -15,6 +15,10 @@ function Header() {
     const [showInfo, setShowInfo] = useState(false);
 
     // let bool = showSearch
+    window.onscroll = () => {
+        setShowInfo(false);
+        setShowMenu(false);
+    };
 
     const handleShowMenu = () => {
         setShowMenu(!showMenu);
@@ -55,7 +59,8 @@ function Header() {
                     />
                     <Icon
                         className={cx('icon-cart')}
-                        icon={<FontAwesomeIcon icon={faCartShopping} to={configs.routes.cart} />}
+                        icon={<FontAwesomeIcon icon={faCartShopping} />}
+                        to={configs.routes.cart}
                     >
                         <span>(3)</span>
                     </Icon>
@@ -69,7 +74,7 @@ function Header() {
                     />
                 </div>
 
-                <InfoUser nameUser={'Nguyễn Ngọc Khánh'} active={showInfo} />
+                <InfoUser nameUser={'Nguyễn Ngọc Khánh'} active={showInfo} onClick={() => setShowInfo(false)} />
 
                 <Search active={showSearch} parentCallback={closeSearch} />
             </section>
