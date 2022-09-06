@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/YormYormFoodWeb/static/css/main.d4e9f918.css",
-    "main.js": "/YormYormFoodWeb/static/js/main.9df82ff8.js",
+    "main.js": "/YormYormFoodWeb/static/js/main.28052f64.js",
     "static/js/787.24476944.chunk.js": "/YormYormFoodWeb/static/js/787.24476944.chunk.js",
     "static/media/home-img-1q.png": "/YormYormFoodWeb/static/media/home-img-1q.47934c0d79145ac7bf0c.png",
     "static/media/home-img-1.png": "/YormYormFoodWeb/static/media/home-img-1.0c628cd6df31eafbccc0.png",
@@ -52,11 +52,11 @@
     "static/media/step-1.png": "/YormYormFoodWeb/static/media/step-1.6b309a686860e095dad1.png",
     "index.html": "/YormYormFoodWeb/index.html",
     "main.d4e9f918.css.map": "/YormYormFoodWeb/static/css/main.d4e9f918.css.map",
-    "main.9df82ff8.js.map": "/YormYormFoodWeb/static/js/main.9df82ff8.js.map",
+    "main.28052f64.js.map": "/YormYormFoodWeb/static/js/main.28052f64.js.map",
     "787.24476944.chunk.js.map": "/YormYormFoodWeb/static/js/787.24476944.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4e9f918.css",
-    "static/js/main.9df82ff8.js"
+    "static/js/main.28052f64.js"
   ]
 }
